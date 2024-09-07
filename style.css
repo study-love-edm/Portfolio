@@ -148,7 +148,20 @@ a:hover{
     transform: scale(1.1);
     transition-duration: 0.2s;
 } */
+#use-technology .col-xl-6 img{
+    transition-duration: 0.3s;
+    display:inline-block;
+}
 
+@media screen and (max-width:800px) {
+    #use-technology .col-xl-6 img{
+        transform: scale(0.7);
+        transition-duration: 0.3s;
+        display: block;
+        margin: 0;
+        padding:0;
+    }
+}
 
 #use-technology .topic-row{
     margin:0;
