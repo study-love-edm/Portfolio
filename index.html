@@ -14,17 +14,17 @@
          <!-- Header -->
     <body>
         <div id="header">
-            <div class="container">
-                <div class="row div-sticky">
+            <div class="container-fluid div-sticky">
+                <div class="row ">
                     <div class="col-md-4">
                         <h1 id="logo">Souvik Sasmal</h1>
                     </div>
                     <div class="col-md-8">
                         <ul id="menu" class="float-md-right" >
                             <li><a href="#home">Home</a></li>
-                            <li><a href="">About</a></li>
+                            <li><a href="#about">About</a></li>
                             <li><a href="">Galery</a></li>
-                            <li><a href="">Products</a></li>
+                            <li><a href="#projects">Projects</a></li>
                             <li><a href="mailto:ssasmal287@gamil.com">Contact Us</a></li>
                         </ul>
                     </div>
@@ -47,8 +47,8 @@
             </div>
         </div>
 
-        <!-- Projects -->
-        <div id="home" class="container section">
+        <!-- Interest -->
+        <div id="interest" class="container-fluid  section">
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="section-head"><b>Interest</b></h2>
@@ -78,20 +78,17 @@
             </div>
         </div>
 
-
+            <!-- use technology -->
         <div id="use-technology">
-
             <div class="container section">
-
                 <div class="row">
-                    
                     <div class="col-md-12 ">
-
                         <h2 class="section-head"><b>Use Technology</b></h2>
                     </div>
 
                     <div class="col-xl-6">
-                        <img src="./images/billboard.png" alt="technology">
+                        <!-- <img src="./images/billboard.png" alt="technology"> -->
+                        <i class="bi bi-alt"></i>
                     </div>
                     
                     <div class="col-xl-6">
@@ -127,5 +124,55 @@
                 </div>
             </div>
         </div>
+
+
+
+
+        <!-- Project -->
+          <div id="projects">
+            <div class="container section">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class ="section-head"><b>Projects</b></h2>
+                    </div>
+
+                    <div class="col-md-6">
+                        <!-- projects details -->
+                         
+                    </div>
+                    <div class="col-md-6 image">
+                        <i class="bi bi-cast"></i>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
+          <!-- about -->
+
+
+          <div id="about">
+            <div class="container-fluid section">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="section-head"><b>About Me</b></h2>
+                    </div>
+                    <div class="col-md-6 about-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere perferendis possimus ab provident fugit sequi reiciendis placeat culpa nesciunt! Velit cum perspiciatis error tempore officiis ratione deleniti sit architecto exercitationem!
+                    </div>
+                    <div class="col-md-6 hire-me">
+                        <form action="" method="post">
+                            <!-- <label for="contact-mail">Enter the Email:</label> -->
+                            <input id="text-box" type="text " placeholder="Name">
+                            <input id="text-box" type="text" placeholder="Email">
+                            <input id="text-box" type="text" placeholder="Mob no">
+                            <textarea name="Messge-for-dev" id="text-message" placeholder="Message"></textarea>
+                            <input id="submit" type="submit" value ="submit">
+                        </form>
+                       
+                    </div>
+                </div>
+            </div>
+          </div>
     </body>
 </html>
