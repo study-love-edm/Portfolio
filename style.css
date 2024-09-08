@@ -252,22 +252,77 @@ a:hover{
 #projects .image{
     text-align: center;
     font-size: 350px;
-
-}
-
-#projects i{
     transition: 0.1s;
-    font-size:350px;
+    /* font-size:350px; */
     display: inline-block;;
     transition-duration: 0.1s;
+
 }
 
-#projects i:hover{
+
+
+#projects .image:hover{
     transform:scale(1.2);
     transition-duration: 0.1s;
 
 }
 
+#projects .col-md-3 i{
+    transition: 0.1s;
+    font-size:100px;
+    display: inline-block;;
+    color: white;
+}
+
+#projects .project-box{
+    display: inline-block;
+    background-color: rgba(155, 89, 182,0.7);
+    border-radius: 20px;
+    margin:0;
+    padding:30px 20px;
+    margin-top:50px;
+    color : white;
+    height: 230px;;
+    transition-duration: 0.3s;
+}
+
+#projects .project-box:hover{
+    background-color: rgba(155, 89, 182,0.9);
+    transition-duration: 0.1s;
+   ;
+}
+
+#projects .project-box .col-md-12{
+    display: block;
+    background-color:rgba(255,255,255,0);
+    margin:0px auto;
+    height:30px;
+    text-align: center;
+    padding :0px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    /* border-radius: ; */
+
+
+}
+#projects .project-box a{
+    color :white;
+    transition-duration: 0.3s;
+    border:1px white solid;
+    border-radius: 15px;
+    padding:5px 20px;   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#projects .project-box a:hover{
+    /* background: rgb(142, 68, 173); */
+    transition-duration: 0.4s;
+    transform: scale(1.03);
+    background-color: black;
+    color:white;
+   
+}
 
 /* about */
 
