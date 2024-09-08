@@ -35,10 +35,7 @@ a:hover{
 
 }
 
-.div-sticky{
-    /* position : sticky; */
- 
-}
+
 /* .row{
     background-color: aqua;
 } */
@@ -63,6 +60,7 @@ a:hover{
 
 #menu li a{
     color : #fff;
+    font-size:larger;
     margin-top:5px;
     padding: 15px 10px;
     display: block;
