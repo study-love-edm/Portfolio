@@ -73,6 +73,10 @@ a:hover{
     transition-duration: 0.2;
 }
 
+.div-sticky{
+  /* position: fixed;   */
+}
+
 /* banner */
 #banner{
     background: url('./images/banner.jpg') no-repeat 0 0;
@@ -131,6 +135,7 @@ a:hover{
     padding: 20px 30px;
     margin:10px 0px;
     /* width:350px; */
+    height : 360px;
     transition-duration: 0.3s;
 
 }
@@ -144,6 +149,7 @@ a:hover{
 .service-box i.bi{
     color : rgb(155, 89, 182);
     font-size: 80px;
+    padding-bottom: 10px;
 }
 
 
